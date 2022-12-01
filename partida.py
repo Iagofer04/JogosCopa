@@ -120,7 +120,7 @@ def aux(x):
 st.table(matriz.applymap(aux))
 
 st.markdown ('---')
-st.markdown ('## 🏟️'https://icons8.com.br/icon/mFuCgbDlUhK5/est%C3%A1dio', Probabilidades dos Jogos da Copa')
+st.markdown ('## 🏟️ Probabilidades dos Jogos da Copa')
 
 jogoscopa = pd.read_excel('EstimativasJogosCopa.xlsx', index_col = 0)
 st.table(jogoscopa[['Grupo', 'Seleção1', 'Seleção2', 'Vitória', 'Empate', 'Derrota']])
