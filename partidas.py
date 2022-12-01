@@ -1,11 +1,10 @@
 import streamlit as st 
-
-st.title (' 🏆 Fifa World Cup Qatar 2022')
-
 import pandas as pd
 import numpy as np
 import random
 from scipy.stats import poisson
+
+st.title (' 🏆 Fifa World Cup Qatar 2022')
 
 selecoes = pd.read_excel('DadosCopaDoMundoQatar2022.xlsx', sheet_name = 'selecoes', index_col = 0)
 jogos = pd.read_excel('DadosCopaDoMundoQatar2022.xlsx', sheet_name = 'jogos')
